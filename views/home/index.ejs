@@ -1,0 +1,25 @@
+<% include ../header %> 
+<header>
+	<h1>Ntalk</h1>
+	<h4>Bem vindo!</h4>
+</header>
+
+<section>
+	<form action = '/entrar' method = 'post'>
+		Nome:
+		<input type = 'text' name = 'usuario[nome]'
+			placeholder = 'Digite seu nome'>
+		<br><br>
+		
+		E-mail:
+		<input type = 'text' name = 'usuario[email]'
+			placeholder = 'Digite seu e-mail'>
+		<br><br>
+		
+		<button type = 'submit'>Entrar</button> 
+	
+	</form>
+</section>
+<br>
+
+<% include ../footer %>
